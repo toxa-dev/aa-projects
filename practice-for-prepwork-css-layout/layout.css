@@ -1,0 +1,66 @@
+
+
+html {
+    box-sizing: border-box;
+}
+
+fieldset {
+    width: 300px;
+    padding: 10px 100px 25px;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
+}
+
+fieldset > * {
+    grid-column: 1 / 3;
+}
+
+
+
+form div {
+    margin-bottom: 10px;
+}
+
+.form-div {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.form-div > * {
+    flex-basis: 100%;
+}
+
+.flex-align {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.flex-align > * {
+    flex-basis: 100%;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+[type=submit] {
+    width: 100px;
+    margin-top: 10px;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+
+[type=date] {
+    padding: 0;
+}
