@@ -1,0 +1,20 @@
+body {
+    font-family: Georgia, serif;
+    font-size: 14px;
+}
+
+li {
+    line-height: 2;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #1600dd;
+}
+
+a:hover {
+    text-decoration: underline;
+}
