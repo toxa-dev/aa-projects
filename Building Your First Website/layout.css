@@ -75,6 +75,7 @@ a {
 .main-form {
     display: flex;
     justify-content: center;
+    margin-top: 4em;
 }
 
 .input-style-1 {
@@ -149,4 +150,13 @@ a {
 .footer a:hover {
     text-decoration: underline;
     text-underline-offset: 6px;
+}
+
+
+
+@media screen and (max-width: 512px) {
+    .nav-small-devices {
+        flex-direction: column;
+        align-items: center;
+    }
 }
