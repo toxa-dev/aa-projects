@@ -14,6 +14,13 @@ body, ul {
     color: white;
 }
 
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
 body {
     display: flex;
     flex-direction: column;
@@ -24,13 +31,6 @@ body > * {
     width: 100%;
 }
 
-ul {
-    list-style-type: none;
-}
-
-a {
-    text-decoration: none;
-}
 
 .main-navigation {
 }
@@ -97,6 +97,10 @@ a {
     user-select: none;
 }
 
+.input-text-thick {
+    padding: 3px 3px;
+}
+
 .label-spacing {
     padding: 0 3px;
 }
@@ -120,11 +124,6 @@ a {
     display: grid;
     grid-template-columns: 1fr;
     row-gap: 3px;
-}
-
-.wide-3,
-.down-3 {
-    /*margin-bottom: 10px;*/
 }
 
 .border-top {
