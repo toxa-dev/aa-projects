@@ -126,8 +126,8 @@ a {
     /*margin-bottom: 10px;*/
 }
 
-.border-top a {
-    padding: 5px 0;
+.border-top {
+    margin-top: 3px;
 }
 
 
